@@ -13,4 +13,3 @@ Makefile*
 *.map
 *callgrind*
 *.pro.user*
-*.txt

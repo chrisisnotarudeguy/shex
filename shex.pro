@@ -101,3 +101,12 @@ OTHER_FILES += \
 
 DISTFILES += \
     shex.supp
+
+CONFIG += debug_and_release
+
+Release:DESTDIR = release
+Release:OBJECTS_DIR = release/obj
+
+Debug:DESTDIR = debug
+Debug:OBJECTS_DIR = debug/obj
+
